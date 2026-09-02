@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Youth Art Exchange</title>
+    <title>Artists Critique Artists</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f9f9f9;
+            background-color: #2b1abf;
             margin: 0;
             padding: 20px;
         }
         header {
             text-align: center;
             padding: 20px;
-            background: #fff;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            background: #d1758c;
+            box-shadow: 0 2px 4px rgba(39, 62, 66, 0.05);
             margin-bottom: 30px;
         }
         .feed {
@@ -23,20 +23,20 @@
             margin: 0 auto;
         }
         .art-card {
-            background: white;
+            background: rgb(207, 145, 29);
             border-radius: 12px;
-            overflow: hidden;
+            overflow: visible;
             box-shadow: 0 4px 12px rgba(0,0,0,0.08);
             margin-bottom: 30px;
         }
         .art-image {
-            width: 100%;
-            height: 400px;
-            background-color: #ddd; /* Placeholder grey until you add an image */
+            width: 200%;
+            height: 300px;
+            background-color: #4fc941; /* Placeholder grey until you add an image */
             display: flex;
             align-items: center;
             justify-content: center;
-            color: #666;
+            color: #7540aa;
         }
         .art-details {
             padding: 20px;
@@ -75,8 +75,8 @@
 <body>
 
     <header>
-        <h1>Youth Art Exchange 🎨</h1>
-        <p>A community for young artists to share and grow.</p>
+        <h1>Youth Art Exhibition 🎨</h1>
+        <p>Comment on others art posts.</p>
     </header>
 
     <div class="feed">
@@ -88,16 +88,16 @@
             </div>
             
             <div class="art-details">
-                <h3>"Sunset Reflections" by Alex, Age 16</h3>
-                <p>Used acrylic paint on canvas. Looking for feedback on the shading of the water!</p>
+                <h3>"Peaches" by Janet Fish, Acrylic on Canvas</h3>
+                <p>Not sure why the colors are not blending, feedback appreciated!</p>
                 
                 <div class="actions">
-                    <button class="like-btn" onclick="alert('You liked this post!')">❤️ Like (12)</button>
+                    <button class="like-btn" onclick="alert('Clap!')">❤️ Like (12)</button>
                 </div>
 
                 <div class="comment-section">
                     <h4>Comments</h4>
-                    <p><strong>Maya:</strong> The blending on the horizon is incredible!</p>
+                    <p><strong>Pablo Picasso:</strong> It is because you are blending dark to light, not the opposite.</p>
                     <input type="text" class="comment-input" placeholder="Write a critique...">
                     <button class="submit-btn" onclick="alert('Comments will work soon!')">Post</button>
                 </div>
